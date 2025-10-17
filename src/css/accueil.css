@@ -83,3 +83,23 @@ h4 {
 }
 
 
+.extension{
+    text-align: start;
+    margin-top: 2%;
+    max-width: 28%;
+}
+
+.extension img {
+    width: 100%;
+    height: auto;
+}
+
+.extension1 h3, h4{
+    margin: 0;
+}
+
+
+.extension1{
+    margin-bottom: 25px;
+    border-bottom:dashed 2px #ccc;
+}
