@@ -1,0 +1,69 @@
+.container {
+    width: 100%;
+    max-width: 1000px;
+    padding: 20px 40px;
+    margin: 0 auto;
+}
+
+.logo > img {
+    width: 500px;
+    height: auto;
+}
+.navbar {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    border-bottom: dashed 2px #ccc;
+    border-top: dashed 2px #ccc;
+    margin-top: 1%;
+}
+
+.Jinping {
+    text-align: start;
+    margin-top: 2%;
+    max-width: 49%;
+}
+
+.Jinping img {
+    width: 100%;
+    height: auto;
+}
+
+.article1 {
+    display: flex;
+    border-bottom: dashed 2px #ccc;
+}
+
+.pereBeasley {
+    display: flex;
+    flex-direction: column;
+    margin-left: 2%;
+    max-width: 12%;
+}
+
+.Bealsey1{
+    text-align: start;
+    border-bottom:dashed 2px #ccc;
+}
+
+.Bealsey2 {
+    border-bottom:dashed 2px #ccc;
+}
+
+h4 {
+    font-weight: normal;
+    font-size: 14px;
+    color: gray;
+}
+
+.complotisme {
+    text-align: start;
+    margin-top: 2%;
+    margin-left: 4%;
+    max-width: 30%;
+}
+
+.complotisme img {
+    width: 100%;
+    height: auto;
+}
