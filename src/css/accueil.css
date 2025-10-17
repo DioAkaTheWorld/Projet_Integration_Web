@@ -82,4 +82,47 @@ h4 {
     height: auto;
 }
 
+.kiosque img {
+    width: 100%;
+    height: auto;
+    border: 2px solid #ccc;
+}
+.kiosque {
+    text-align: start;
+    margin-top: 2%;
+    max-width: 25%;
+}
 
+.article2 {
+    display: flex;
+    border-bottom: dashed 2px #ccc;
+}
+
+.cuba img {
+    width: 100%;
+    height: auto;
+}
+.art2mid{
+    margin-left: 2%;
+}
+.cuba {
+    text-align: start;
+    margin-top: 2%;
+    margin-left: 2%;
+    max-width: 25%;
+    border-bottom: dashed 2px #ccc;
+}
+
+.mora {
+    text-align: start;
+    margin-top: 2%;
+    max-width: 25%;
+    margin-left: 2%;
+}
+
+.mora1 {
+    border-bottom: dashed 2px #ccc;
+}
+.mora2 {
+    border-bottom: dashed 2px #ccc;
+}
