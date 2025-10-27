@@ -118,6 +118,8 @@ h4 {
 .article2 {
     display: flex;
     border-bottom: dashed 2px #ccc;
+    display: flex;
+    justify-content: space-evenly;
 }
 
 .cuba img {
@@ -125,13 +127,14 @@ h4 {
     height: auto;
 }
 .art2mid{
-    margin-left: 2%;
+    margin-left: 7%;
+    margin-right: 7%;
 }
 .cuba {
     text-align: start;
     margin-top: 2%;
     margin-left: 2%;
-    max-width: 25%;
+    max-width: 100%;
     border-bottom: dashed 2px #ccc;
 }
 
@@ -147,4 +150,16 @@ h4 {
 }
 .mora2 {
     border-bottom: dashed 2px #ccc;
+}
+
+
+.uppercut img {
+    width: 100%;
+    height: auto;
+    border: 2px solid #ccc;
+}
+.uppercut {
+    text-align: start;
+    margin-top: 2%;
+    max-width: 25%;
 }
