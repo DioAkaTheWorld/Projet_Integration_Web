@@ -316,3 +316,122 @@ h4 {
   font-weight: bold;
   margin-top: 10px;
 }
+
+.soutenez {
+  display: flex;
+  justify-content: center;
+  margin: 30px 0;
+  border-bottom: 2px dashed #ccc;
+  padding-bottom: 20px;
+}
+
+.soutenez img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.article4 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 40px;
+  border-bottom: 2px dashed #ccc;
+  padding: 30px 0;
+  align-items: start;
+}
+
+.newsletter {
+  border-right: 1px solid #ccc;
+  padding-right: 40px;
+}
+
+.newsletter h3 {
+  font-size: 20px;
+  text-transform: uppercase;
+  margin-bottom: 10px;
+  font-weight: normal;
+  color: #333;
+}
+
+.newsletter h3 span {
+  color: #c53424;
+  font-weight: bold;
+}
+
+.newsletter p {
+  font-size: 15px;
+  line-height: 1.5;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.inscription {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 10px;
+}
+
+.inscription input {
+  border: 1px solid #aaa;
+  padding: 6px 8px;
+  font-size: 14px;
+  width: 180px;
+}
+
+.inscription button {
+  background-color: #f3e7d3;
+  border: 1px solid #ccc;
+  border-radius: 15px;
+  padding: 6px 12px;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.inscription button:hover {
+  background-color: #e4d5bb;
+}
+
+.sous-texte {
+  font-size: 13px;
+  color: gray;
+  margin-bottom: 10px;
+}
+
+.suivre {
+  font-size: 15px;
+  color: #333;
+}
+
+.suivre span {
+  color: #c53424;
+  font-weight: bold;
+}
+
+.amis {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 15px;
+}
+
+.amis p {
+  font-size: 15px;
+  line-height: 1.5;
+  color: #333;
+}
+
+.amis .rouge {
+  color: #c53424;
+  font-weight: bold;
+}
+
+.amis .orange {
+  color: #d35a00;
+  font-weight: bold;
+}
+
+.amis img {
+  width: 230px;
+  height: auto;
+}
