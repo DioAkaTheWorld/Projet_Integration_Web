@@ -1,4 +1,8 @@
 @media (max-width: 1024px) {
+
+.barre-recherche {
+  display: none;
+}
   .container {
     padding: 10px 20px;
   }
@@ -34,7 +38,6 @@
 
 
 @media (max-width: 768px) {
-  /* ---- Cache la navbar classique ---- */
   .navbar {
     display: none;
   }

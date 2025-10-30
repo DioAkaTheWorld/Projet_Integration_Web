@@ -78,11 +78,6 @@ body {
   font-size: 15px;
 }
 
-.navbar a:hover,
-.navbar p:hover {
-  text-decoration: underline;
-}
-
 .article1 {
   display: grid;
   grid-template-columns: 1fr 0.3fr 0.8fr;
@@ -388,10 +383,6 @@ h4 {
   cursor: pointer;
 }
 
-.inscription button:hover {
-  background-color: #e4d5bb;
-}
-
 .sous-texte {
   font-size: 13px;
   color: gray;
@@ -588,11 +579,6 @@ h4 {
   transition: transform 0.2s;
 }
 
-.livres-container img:hover,
-.revues-container img:hover {
-  transform: scale(1.05);
-}
-
 .revues-text {
   margin-top: 10px;
   font-size: 15px;
@@ -762,10 +748,6 @@ footer {
   font-size: 14px;
 }
 
-.footer-col ul li a:hover {
-  color: #c53424;
-}
-
 .footer-col p {
   font-size: 14px;
   line-height: 1.4;
@@ -777,4 +759,8 @@ footer {
   font-size: 13px;
   color: #777;
   margin-top: 15px;
+}
+
+.menu-mobile {
+  display: none;
 }
