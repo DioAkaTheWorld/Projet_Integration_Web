@@ -435,3 +435,173 @@ h4 {
   width: 230px;
   height: auto;
 }
+
+.article5 {
+  border-bottom: 2px dashed #ccc;
+  padding: 30px 0;
+}
+
+.article5 h3 {
+  font-size: 20px;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+  font-weight: bold;
+  color: #333;
+}
+
+.article5 h3 span {
+  color: #c53424;
+}
+
+.cartes-container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 25px;
+}
+
+.carte img {
+  width: 100%;
+  height: auto;
+  border: 1px solid #ccc;
+  margin-bottom: 8px;
+}
+
+.carte h4 {
+  color: black;
+  font-size: 16px;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.carte .auteur {
+  font-size: 13px;
+  color: gray;
+  margin: 0 0 3px 0;
+}
+
+.carte .apercu {
+  font-size: 13px;
+  color: #0082b3;
+  margin: 0;
+}
+
+
+.article6 {
+  border-bottom: 2px dashed #ccc;
+  padding: 30px 0;
+}
+
+.article6 h3 {
+  font-size: 20px;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+  font-weight: bold;
+  color: #333;
+}
+
+.article6 h3 span {
+  color: #c53424;
+}
+
+.mdv-container {
+  display: grid;
+  grid-template-columns: 0.6fr 1.4fr;
+  gap: 25px;
+  align-items: start;
+}
+
+.mdv-container img {
+  width: 100%;
+  height: auto;
+  border: 1px solid #ccc;
+}
+
+.mdv-texte h4 {
+  font-size: 20px;
+  font-weight: bold;
+  margin: 0 0 8px 0;
+}
+
+.mdv-texte .sous-titre {
+  font-size: 14px;
+  color: gray;
+  margin-bottom: 12px;
+}
+
+.mdv-texte .description {
+  font-size: 15px;
+  color: #222;
+  line-height: 1.6;
+  margin-bottom: 10px;
+}
+
+.mdv-texte .lien-rouge {
+  color: #c53424;
+  font-weight: bold;
+  font-size: 15px;
+}
+
+
+.article7 {
+  border-bottom: 2px dashed #ccc;
+  padding: 30px 0;
+  text-align: left;
+}
+
+.article7 h3 {
+  font-size: 20px;
+  text-transform: uppercase;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.article7 h3 span {
+  color: #c53424;
+}
+
+.article7 p {
+  font-size: 15px;
+  line-height: 1.6;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.article7 .rouge {
+  color: #c53424;
+  font-weight: bold;
+}
+
+.livres-container,
+.revues-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.livres-container img,
+.revues-container img {
+  height: 140px;
+  width: auto;
+  border: 1px solid #ccc;
+  transition: transform 0.2s;
+}
+
+.livres-container img:hover,
+.revues-container img:hover {
+  transform: scale(1.05);
+}
+
+.revues-text {
+  margin-top: 10px;
+  font-size: 15px;
+  line-height: 1.5;
+}
+
+.liens {
+  text-align: center;
+  font-size: 15px;
+  color: #333;
+  margin-top: 15px;
+}
